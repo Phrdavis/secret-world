@@ -1,0 +1,34 @@
+html, body{
+  height: 100%;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #353535 0%, #131313 100%);
+  color: white;
+  box-sizing: border-box;
+}
+button{
+
+  background-color: #202020;
+  color: aliceblue;
+  padding: 0.8em 2em;
+  border-radius: 0.6em;
+  font-weight: bold;
+  font-size: 1.2em;
+  border-color: aliceblue;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  box-shadow: 0px 15px 10px 0px #1d1d1d;
+
+}
+
+button:hover{
+  scale: 1.05;
+  background-color: #0f0f0f;
+}
