@@ -27,3 +27,10 @@ Contributions are welcome! If you have any ideas or suggestions, please open an 
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
+## Contact Information
+
+Please feel free to reach out to me using any of the following methods:
+
+- Email: [davipinheiro.dev@gmail.com](mailto:davipinheiro.dev@gmail.com)
+- LinkedIn: [Davi Pinheiro Linkedin](https://www.linkedin.com/in/phrdavis/)
+
