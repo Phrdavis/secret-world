@@ -22,6 +22,7 @@ const stages = [
 function App() {
 
   const guessesQtd = 3;
+  const scorePoint = 50
 
   const [gameStage, setGameStage] = useState(stages[0].name)
   const [words] = useState(wordList)
@@ -33,7 +34,7 @@ function App() {
   const [guessedLetters, setGuessedLetters] = useState([]);
   const [wrongLetters, setWrongLetters] = useState([]);
   const [guesses, setGuesses] = useState(guessesQtd);
-  const [score, setScore] = useState(100);
+  const [score, setScore] = useState(scorePoint);
 
   const pickWordAndCategory = () =>{
 
@@ -127,7 +128,7 @@ function App() {
                                   guesses={guesses}
                                   score={score}
                                  />}
-      {gameStage == 'end' && <GameOver retry={retry} />}
+      {gameStage == 'end' && <GameOver retry={retry} score={score} />}
     </div>
   )
 }
