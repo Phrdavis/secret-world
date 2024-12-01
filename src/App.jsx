@@ -8,6 +8,7 @@ import wordList from './data/words.jsx'
 import StartScreen from './components/StartScreen'
 import Game from './components/Game'
 import GameOver from './components/GameOver'
+import Copyrigth from './components/Copyrigth'
 
 //React
 import { useState, useEffect, useCallback } from 'react'
@@ -143,6 +144,8 @@ function App() {
                                   score={score}
                                  />}
       {gameStage == 'end' && <GameOver retry={retry} score={score} />}
+      
+      <Copyrigth ano={2024} nome='Davi Pinheiro de Souza' />
     </div>
   )
 }
