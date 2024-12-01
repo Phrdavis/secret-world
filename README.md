@@ -14,6 +14,8 @@ This is a React app built with Vite that allows you to play a secret word game.
 2. Open your browser and navigate to `http://localhost:3000`.
 3. Start playing the secret word game!
 
+0. A tip! You can change the numbers of guesses and the score points in the `App.jsx`
+
 ## Features
 
 - Guess the secret word by entering letters.
