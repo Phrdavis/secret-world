@@ -56,7 +56,7 @@ const Game = ({
 
             <p>Tente advinhar uma letra da palavra: </p>
             <form onSubmit={handleSubmit}>
-                <input type="text" name='letter' value={letter} maxLength={1} ref={letterInputRef} required onChange={(e)=>{setLetter(e.target.value)}}/>
+                <input type="text" name='/letter' value={letter} maxLength={1} ref={letterInputRef} required onChange={(e)=>{setLetter(e.target.value)}}/>
                 <button type='submit'>Jogar!</button>
             </form>
 
