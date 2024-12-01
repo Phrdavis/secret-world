@@ -10,7 +10,7 @@ This is a React app built with Vite that allows you to play a secret word game.
 
 ## Usage
 
-1. Run `npm start` to start the development server.
+1. Run `npm start` or `npm run dev` to start the development server.
 2. Open your browser and navigate to `http://localhost:3000`.
 3. Start playing the secret word game!
 
